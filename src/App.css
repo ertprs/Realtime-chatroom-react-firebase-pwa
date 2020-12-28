@@ -63,10 +63,13 @@ form {
   max-width: 728px;
   display: flex;
   font-size: 1.5rem;
+  border-radius: 30px 30px 0px 0px;
 }
 
 form button {
   width: 20%;
+  border-radius: 0px 30px 0px 0px;
+
   background-color: rgb(56, 56, 143);
 }
 
@@ -79,6 +82,7 @@ input {
   outline: none;
   border: none;
   padding: 0 10px;
+  border-radius: 30px 0px 0px 0px;
 }
 
 button {
@@ -103,6 +107,10 @@ button:disabled {
   background: white;
   max-width: 400px;
   margin: 0 auto;
+  border-radius: 50px;
+}
+.sign-out {
+  border-radius: 50px;
 }
 
 ul,

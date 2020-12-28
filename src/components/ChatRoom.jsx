@@ -48,7 +48,8 @@ function ChatRoom({ auth, firestore }) {
           onChange={(e) => setFormValue(e.target.value)}
         />
         <button type="submit" disabled={!formValue}>
-          🕊️
+          {/* <img src="send-mail.svg" alt=""></img> */}
+          🦜
         </button>
       </form>
     </>
